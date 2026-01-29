@@ -7,12 +7,12 @@ int main()
 {
     while (1){
         int n;
-        printf("Insira um número: ");
+        printf("Digite um número: ");
         scanf("%d",&n);
         if (n<2){
             break;
         }
-        for (int c=1;c<n;c++){
+        for (int c=1;c<=n;c++){
             if(n%c==0){
                 printf("%d\n",c);
             }
