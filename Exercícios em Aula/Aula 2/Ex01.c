@@ -1,4 +1,4 @@
-//Exercício 1) Salário: Faça um programa que dado o salário bruto SB (real) de um funcionário,
+//Exercício 1 Salário: Faça um programa que dado o salário bruto SB (real) de um funcionário,
 //calcular o salário líquido SL (real), aplicando o desconto
 #include <stdio.h>
 
