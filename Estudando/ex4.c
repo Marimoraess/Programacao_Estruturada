@@ -1,23 +1,13 @@
-//Palindromo
+//Receba um número inteiro positivo n e calcule a soma dos seus dígitos.
 #include <stdio.h>
 int main(){
-    int n,rev,dig;
-
+    int n,soma=0;
     scanf("%d",&n);
-    orig=n;
     while(n>0){
-        dig=n%10;
-        
-        n=n/10;
+        soma=soma+ n%10; //soma o ultimo num
+        n=n/10; //deleta o ultimo
         
 
     }
-    if(n==rev){
-            printf("Parindromo");
-        }
-        else{
-            printf("Nao.");
-        }
-
-    }
-
+    printf("%d",soma);
+}
