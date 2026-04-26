@@ -26,14 +26,16 @@ int main()
         printf("NUMERO: ");
         scanf("%d", &vet2[c]);
     }
-
+    int cont=0;
     //comparação
     for(int c=0;c<tamA;c++){
         for(int i=0;i<tamB;i++){
             if(vet1[c]==vet2[i]){
                 printf("%d ",vet1[c]);
-                break;//não deixa o numero repetir
+                cont++;
+                
             }
         }
     }
+    printf("%d numeros",cont);
 }
