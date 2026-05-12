@@ -25,7 +25,7 @@ int main()
 
     for(int i=0; i<pos; i++){
         printf("%d ", vet[i]);
-    }
+    }                               
 
     return 0;
 }
